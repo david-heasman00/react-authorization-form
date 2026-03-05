@@ -21,7 +21,7 @@ This project was part of the React Components module, and is intended to introdu
 
 ## Where can I view the code?
 
-**[You can see my code solution here.]()**
+**[You can see my main code solution here.](https://github.com/david-heasman00/react-authorization-form/blob/main/Contact.JS)**
 
 *This project was written on the Codecademy IDE, and might be missing some elements to compile.*
 

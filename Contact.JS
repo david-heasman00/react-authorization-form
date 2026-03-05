@@ -12,7 +12,10 @@ function Contact() {
   }
 
   const login = (
-    <form action="#">
+    <form 
+      action="#"
+      onSubmit={handleSubmit}
+    >
       <input 
         type="password"
         placeholder="Password"
@@ -39,7 +42,7 @@ function Contact() {
         <h1>
           { authorized ? "Contact" : "Enter the Password"}
         </h1>
-        
+        { authorized ? contactInfo : login}
       </div>
   );
 }

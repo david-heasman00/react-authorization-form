@@ -13,7 +13,9 @@ function Contact() {
 
   return (
       <div id="authorization">
-        <h1>Contact</h1>
+        <h1>
+          { authorized ? "Contact" : "Enter the Password"}
+        </h1>
         <ul>
           <li>
             client@example.com

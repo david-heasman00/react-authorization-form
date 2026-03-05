@@ -11,7 +11,11 @@ Being a Data Journalist is part writer, part data visualiser, and part data-jack
 
 (I already have a few [D3 projects](https://theheasman.com/how-i-used-a-market-basket-analysis-to-get-a-job-offer/) [under my belt](https://theheasman.com/data-history-of-uk-interest-rates/), but I would like to learn to build D3 projects with a more modern framework. And, even in the age of AI, I'm a big believer in learning things the hard way.)
 
-This project was part of the React Components module, and is intended to introduce how components work in React.
+This project was part of the React Components module, and is intended to introduce how components work in React. Brief from Codecademy:
+
+>A client just called you to say that they love their new website! There’s only one problem: they don’t like how their contact page displays their personal information for all to see.
+
+>They’ve asked you to hide their website’s contact page behind a password form. In this project, you’ll accomplish this by creating a React component to set up a simple authorization layer.
 
 ## What did you learn?
 

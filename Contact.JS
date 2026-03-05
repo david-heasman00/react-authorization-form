@@ -11,19 +11,35 @@ function Contact() {
     setAuthorized(auth)
   }
 
+  const login = (
+    <form action="#">
+      <input 
+        type="password"
+        placeholder="Password"
+      />
+      <input 
+        type="submit"
+      />
+    </form>
+  )
+
+  const contactInfo = (
+    <ul>
+      <li>
+        client@example.com
+      </li>
+      <li>
+        555.555.5555
+      </li>
+    </ul>
+  );
+
   return (
       <div id="authorization">
         <h1>
           { authorized ? "Contact" : "Enter the Password"}
         </h1>
-        <ul>
-          <li>
-            client@example.com
-          </li>
-          <li>
-            555.555.5555
-          </li>
-        </ul>
+        
       </div>
   );
 }
